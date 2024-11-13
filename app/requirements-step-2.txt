@@ -1,3 +1,4 @@
+# This file contains dependencies for step 2
 twilio==6.6.3
 ccxt==1.13.26
 structlog==17.2.0

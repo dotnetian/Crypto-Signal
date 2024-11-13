@@ -46,6 +46,21 @@ The commands listed below are intended to be run in a terminal.
 
 1. When you want to update the application run `docker pull shadowreaver/crypto-signal:master`
 
+### Running without Docker
+
+1. Install the dependencies listed in `app/requirements-step-1.txt` and `app/requirements-step-2.txt` using the following commands:
+   ```
+   pip install -r app/requirements-step-1.txt
+   pip install -r app/requirements-step-2.txt
+   ```
+
+1. Create a `config.yml` file in your current directory. See the Configuring config.yml section below for customizing settings.
+
+1. Run the application directly using the following command:
+   ```
+   python app/app.py
+   ```
+
 ### Configuring config.yml
 
 For a list of all possible options for config.yml and some example configurations look [here](docs/config.md)
